@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "concurrently npm:wacth:*",
+    "build": "concurrently npm:wacth:*",
     "wacth:client": "vite client",
     "wacth:server": "nodemon server"
   },
